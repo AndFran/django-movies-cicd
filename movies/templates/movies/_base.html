@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Movies Site{% endblock %}}</title>
+</head>
+<body>
+    {% block navigation %}
+        <div>
+            <a href="{% url 'home' %}">Fav Movies</a>
+            <a href="{% url 'about' %}">About</a>
+        </div>
+    {% endblock %}
+
+    {% block content %}
+    {% endblock %}
+
+
+</body>
+</html>

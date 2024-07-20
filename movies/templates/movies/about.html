@@ -1,0 +1,12 @@
+{% extends 'movies/_base.html' %}
+
+
+
+{% block content %}
+    <h1>About Page</h1>
+    <div>This is about the about about page</div>
+    {% load static %}
+    <img style="width: 100px;" src="{% static 'movies/python-hero.jpeg' %}" alt="">
+
+{% endblock %}
+
